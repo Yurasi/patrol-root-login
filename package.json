@@ -1,0 +1,25 @@
+{
+  "name": "patrol-root-login",
+  "version": "1.0.0",
+  "description": "detect when root user log in to AWS console",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test tape test/*.test.js test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yurasi/patrol-root-login.git"
+  },
+  "author": "yurasi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yurasi/patrol-root-login/issues"
+  },
+  "homepage": "https://github.com/Yurasi/patrol-root-login#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "lambda-cfn": "^0.1.4"
+  }
+}
